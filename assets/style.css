@@ -1,6 +1,4 @@
 :root {
-	--background: linear-gradient(135deg, #26a2f9, #036ae0);
-	--background-hover: linear-gradient(135deg, #036ae0, #26a2f9);
 	--blue: #26a2f9;
 	--dark-blue: #036ae0;
 	--grey: rgba(68, 68, 68, 1);
@@ -36,7 +34,7 @@ body,
 html {
 	padding: 0px;
 	margin: 0px;
-	background: #f3f2f0;
+	/* background: #f3f2f0; */
 }
 
 .heading {
@@ -117,11 +115,16 @@ html {
 }
 .menu-item > a {
 	color: #f5f5f7;
-	opacity: 75%;
+	/* opacity: 75%; */
 	text-decoration: none;
 }
 .menu-item > a:hover {
-	opacity: 100%;
+	/* opacity: 100%; */
+	opacity: 75%;
+}
+
+.menu-item > img {
+	align-self: center;
 }
 
 /* Portfolio */
@@ -177,6 +180,9 @@ html {
 .footer-description > a {
 	color: #000000;
 	text-decoration: none;
+}
+.footer-description > a:hover {
+	text-decoration: underline;
 }
 
 .footer-description > a > img {
